@@ -1,0 +1,13 @@
+[project]
+name = "my-flet-app"
+version = "0.1.0"
+description = "A minimal Flet app built into Android APK in GitHub Actions"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "flet",
+]
+
+[tool.flet]
+# Flet application entry point
+# Keep the app code in main.py
